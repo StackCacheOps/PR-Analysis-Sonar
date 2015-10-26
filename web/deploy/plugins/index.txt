@@ -1,0 +1,11 @@
+core,true,sonar-core-plugin-5.1.2.jar|b86ec05f4953608b2b4b697c027ab994
+emailnotifications,true,sonar-email-notifications-plugin-5.1.2.jar|3dd4e623752556c7a8757c1989af0ece
+csharp,false,sonar-csharp-plugin-4.2.jar|af49378c5127353a2536ae77159ddbbb
+github,false,sonar-github-plugin-1.0.1.jar|66f56417c5249db6e9e70a65ce41df3d
+java,false,sonar-java-plugin-3.6.jar|afb6ad44f35b43232575207a8dd0b757
+smells,false,qualinsight-sonarqube-smell-plugin-2.0.0.jar|541c9d8949689d9d7d9a9fc7c44d049b
+resharper,false,sonar-resharper-plugin-2.0.jar|c45ad0529e73c9d2243e3092abddfc0d
+scmgit,false,sonar-scm-git-plugin-1.0.jar|e1d9d8e1d3524f9f0f69017e6dbead02
+stylecop,false,sonar-stylecop-plugin-1.1.jar|f9025884fd971c4869871a25a5b61c2d
+l10nen,true,sonar-l10n-en-plugin-5.1.2.jar|bb21d03934050deec6cc95d0063d7789
+scmsvn,false,sonar-scm-svn-plugin-1.0.jar|6915a69a7810c2b33ad4276d99a23077

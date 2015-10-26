@@ -1,0 +1,239 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Unable to execute Java command.  Le fichier spécifié est introuvable. (0x2)
+    "java" -Djava.awt.headless=true -Xms3m -Xmx32m -Djava.library.path="./lib" -classpath "../../lib/jsw/wrapper-3.2.3.jar;../../lib/sonar-application-5.1.2.jar" -Dwrapper.key="YImuhpNkwcOoHkaL" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11616 -Dwrapper.version="3.2.3" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp org.sonar.application.App
+Critical error: wait for JVM process failed
+--> Wrapper Started as Console
+Launching a JVM...
+Unable to execute Java command.  Le fichier spécifié est introuvable. (0x2)
+    "java" -Djava.awt.headless=true -Xms3m -Xmx32m -Djava.library.path="./lib" -classpath "../../lib/jsw/wrapper-3.2.3.jar;../../lib/sonar-application-5.1.2.jar" -Dwrapper.key="yZ1Hy83mCAjnsX0l" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=18340 -Dwrapper.version="3.2.3" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp org.sonar.application.App
+Critical error: wait for JVM process failed
+--> Wrapper Started as Console
+Launching a JVM...
+Unable to execute Java command.  Le fichier spécifié est introuvable. (0x2)
+    "java" -Djava.awt.headless=true -Xms3m -Xmx32m -Djava.library.path="./lib" -classpath "../../lib/jsw/wrapper-3.2.3.jar;../../lib/sonar-application-5.1.2.jar" -Dwrapper.key="tJANjmTm52ws_nAp" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=13388 -Dwrapper.version="3.2.3" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp org.sonar.application.App
+Critical error: wait for JVM process failed
+--> Wrapper Started as Console
+Launching a JVM...
+Unable to execute Java command.  Le fichier spécifié est introuvable. (0x2)
+    "java" -Djava.awt.headless=true -Xms3m -Xmx32m -Djava.library.path="./lib" -classpath "../../lib/jsw/wrapper-3.2.3.jar;../../lib/sonar-application-5.1.2.jar" -Dwrapper.key="jKNvq4QoE8igcRjR" -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=12984 -Dwrapper.version="3.2.3" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp org.sonar.application.App
+Critical error: wait for JVM process failed
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2015.10.26 07:17:48 INFO  app[o.s.p.m.JavaProcessLauncher] Launch process[search]: C:\Program Files\Java\jre1.8.0_66\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djava.net.preferIPv4Stack=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Users\Raph\AppData\Local\Temp\sq-process8598379316622099640properties
+2015.10.26 07:17:49 INFO   es[o.s.p.ProcessEntryPoint]  Starting search
+2015.10.26 07:17:49 INFO   es[o.s.s.SearchServer]  Starting Elasticsearch[sonarqube] on port 9001
+2015.10.26 07:17:49 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] version[1.4.4], pid[6664], build[c88f77f/2015-02-19T13:05:36Z]
+2015.10.26 07:17:49 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] initializing ...
+2015.10.26 07:17:49 INFO   es[o.e.plugins]  [sonar-1445840268438] loaded [], sites []
+2015.10.26 07:17:51 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] initialized
+2015.10.26 07:17:51 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] starting ...
+2015.10.26 07:17:51 INFO   es[o.e.transport]  [sonar-1445840268438] bound_address {inet[/0.0.0.0:9001]}, publish_address {inet[/192.168.0.199:9001]}
+2015.10.26 07:17:51 INFO   es[o.e.discovery]  [sonar-1445840268438] sonarqube/nPnMqtXWR2GKoY9PWdGLZg
+2015.10.26 07:17:54 INFO   es[o.e.cluster.service]  [sonar-1445840268438] new_master [sonar-1445840268438][nPnMqtXWR2GKoY9PWdGLZg][DESKTOP-PAF4N6N][inet[/192.168.0.199:9001]]{rack_id=sonar-1445840268438}, reason: zen-disco-join (elected_as_master)
+2015.10.26 07:17:54 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] started
+2015.10.26 07:17:54 INFO   es[o.e.gateway]  [sonar-1445840268438] recovered [0] indices into cluster_state
+2015.10.26 07:17:54 INFO  app[o.s.p.m.Monitor] Process[search] is up
+2015.10.26 07:17:54 INFO  app[o.s.p.m.JavaProcessLauncher] Launch process[web]: C:\Program Files\Java\jre1.8.0_66\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djruby.management.enabled=false -Djruby.compile.invokedynamic=false -Xmx768m -XX:MaxPermSize=160m -XX:+HeapDumpOnOutOfMemoryError -Djava.net.preferIPv4Stack=true -Djava.io.tmpdir=C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\temp -cp ./lib/common/*;./lib/server/*;C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Raph\AppData\Local\Temp\sq-process4380854315067862763properties
+2015.10.26 07:17:56 INFO  web[o.s.p.ProcessEntryPoint] Starting web
+2015.10.26 07:17:56 INFO  web[o.s.s.app.Webapp] Webapp directory: C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\web
+2015.10.26 07:17:56 INFO  web[o.a.c.h.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:17:56 INFO  web[o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2015.10.26 07:17:57 INFO  web[o.e.plugins] [sonar-1445840268438] loaded [], sites []
+2015.10.26 07:17:58 INFO  web[o.s.s.p.ServerImpl] SonarQube Server / 5.1.2 / 2a52a7106b2bfbd659c591c2d6fc09ad0ab2db5c
+2015.10.26 07:17:58 INFO  web[o.s.s.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://localhost:9092/sonar
+2015.10.26 07:17:58 INFO  web[o.s.s.d.EmbeddedDatabase] Embedded database started. Data stored in: C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\data
+2015.10.26 07:17:58 INFO  web[o.s.c.p.Database] Create JDBC datasource for jdbc:h2:tcp://localhost:9092/sonar
+2015.10.26 07:17:59 WARN  web[o.s.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2015.10.26 07:17:59 INFO  web[o.s.s.p.DefaultServerFileSystem] SonarQube home: C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2
+2015.10.26 07:18:00 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [rules] creating index, cause [api], shards [1]/[0], mappings []
+2015.10.26 07:18:00 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [rules] create_mapping [rule]
+2015.10.26 07:18:00 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [rules] create_mapping [activeRule]
+2015.10.26 07:18:00 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Install plugins
+2015.10.26 07:18:00 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Core / 5.1.2 / 2a52a7106b2bfbd659c591c2d6fc09ad0ab2db5c
+2015.10.26 07:18:00 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Email notifications / 5.1.2 / 2a52a7106b2bfbd659c591c2d6fc09ad0ab2db5c
+2015.10.26 07:18:00 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Java / 3.0 / 65396a609ddface8b311a6a665aca92a7da694f1
+2015.10.26 07:18:00 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Git / 1.0 / 9ce9d330c313c296fab051317cc5ad4b26319e07
+2015.10.26 07:18:00 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin English Pack / 5.1.2 / 2a52a7106b2bfbd659c591c2d6fc09ad0ab2db5c
+2015.10.26 07:18:00 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin SVN / 1.0 / 213fc8a8b582ff530b12dd4a59a6512be1071234
+2015.10.26 07:18:00 INFO  web[o.s.s.d.m.DatabaseMigrator] Create database
+2015.10.26 07:18:01 INFO  web[o.s.s.p.RailsAppsDeployer] Deploy Ruby on Rails applications
+2015.10.26 07:18:01 INFO  web[o.s.j.s.AbstractDatabaseConnector] Initializing Hibernate
+2015.10.26 07:18:02 INFO  web[o.s.s.p.UpdateCenterClient] Update center: http://update.sonarsource.org/update-center.properties (no proxy)
+2015.10.26 07:18:02 INFO  web[o.s.s.e.IndexCreator] Create index sourcelines
+2015.10.26 07:18:02 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [sourcelines] creating index, cause [api], shards [1]/[0], mappings []
+2015.10.26 07:18:02 INFO  web[o.s.s.e.IndexCreator] Create type sourcelines/sourceline
+2015.10.26 07:18:02 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [sourcelines] create_mapping [sourceline]
+2015.10.26 07:18:02 INFO  web[o.s.s.e.IndexCreator] Create index activities
+2015.10.26 07:18:02 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [activities] creating index, cause [api], shards [1]/[0], mappings []
+2015.10.26 07:18:02 INFO  web[o.s.s.e.IndexCreator] Create type activities/activity
+2015.10.26 07:18:02 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [activities] create_mapping [activity]
+2015.10.26 07:18:02 INFO  web[o.s.s.e.IndexCreator] Create index issues
+2015.10.26 07:18:02 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [issues] creating index, cause [api], shards [1]/[0], mappings []
+2015.10.26 07:18:03 INFO  web[o.s.s.e.IndexCreator] Create type issues/authorization
+2015.10.26 07:18:03 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [issues] create_mapping [authorization]
+2015.10.26 07:18:03 INFO  web[o.s.s.e.IndexCreator] Create type issues/issue
+2015.10.26 07:18:03 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [issues] create_mapping [issue]
+2015.10.26 07:18:03 INFO  web[o.s.s.e.IndexCreator] Create index users
+2015.10.26 07:18:03 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [users] creating index, cause [api], shards [1]/[0], mappings []
+2015.10.26 07:18:03 INFO  web[o.s.s.e.IndexCreator] Create type users/user
+2015.10.26 07:18:03 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [users] create_mapping [user]
+2015.10.26 07:18:03 INFO  web[o.s.s.e.IndexCreator] Create index views
+2015.10.26 07:18:03 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [views] creating index, cause [api], shards [1]/[0], mappings []
+2015.10.26 07:18:03 INFO  web[o.s.s.e.IndexCreator] Create type views/view
+2015.10.26 07:18:03 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [views] create_mapping [view]
+2015.10.26 07:18:04 INFO  web[o.s.s.n.NotificationService] Notification service started (delay 60 sec.)
+2015.10.26 07:18:04 INFO  web[o.s.s.s.IndexSynchronizer] Index rules
+2015.10.26 07:18:04 INFO  web[o.s.s.s.IndexSynchronizer] Index activeRules
+2015.10.26 07:18:04 INFO  web[o.s.s.s.RegisterMetrics] Register metrics
+2015.10.26 07:18:04 INFO  web[o.s.s.s.RegisterMetrics] Cleaning quality gate conditions
+2015.10.26 07:18:04 INFO  web[o.s.s.s.RegisterDebtModel] Register technical debt model
+2015.10.26 07:18:04 INFO  web[o.s.s.r.RegisterRules] Register rules
+2015.10.26 07:18:08 INFO  web[o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2015.10.26 07:18:08 INFO  web[o.s.s.q.RegisterQualityProfiles] Register profile {lang=java, name=Sonar way}
+2015.10.26 07:18:09 INFO  web[o.s.s.q.RegisterQualityProfiles] Set default java profile: Sonar way
+2015.10.26 07:18:09 INFO  web[o.s.s.s.RegisterNewMeasureFilters] Register measure filters
+2015.10.26 07:18:09 INFO  web[o.s.s.s.RegisterNewMeasureFilters] Register measure filter: Projects
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RegisterNewMeasureFilters] Register measure filter: My favourites
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RegisterDashboards] Register dashboards
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RegisterDashboards] Register dashboard: Dashboard
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RegisterDashboards] Register dashboard: Home
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RegisterDashboards] Register dashboard: Issues
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RegisterDashboards] Register dashboard: TimeMachine
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RegisterPermissionTemplates] Set default permission template: default_template
+2015.10.26 07:18:10 INFO  web[o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2015.10.26 07:18:10 INFO  web[o.s.s.s.CopyRequirementsFromCharacteristicsToRules] Copying requirement from characteristics to rules
+2015.10.26 07:18:10 INFO  web[o.s.s.s.CopyRequirementsFromCharacteristicsToRules] No requirement need to be copied
+2015.10.26 07:18:10 INFO  web[o.s.s.s.CopyRequirementsFromCharacteristicsToRules] Deleting requirements from characteristics
+2015.10.26 07:18:10 INFO  web[o.s.s.s.IndexSynchronizer] Index activities
+2015.10.26 07:18:10 INFO   es[o.e.cluster.metadata]  [sonar-1445840268438] [activities] update_mapping [activity] (dynamic)
+2015.10.26 07:18:10 INFO  web[o.s.s.s.IndexSynchronizer] Index issues
+2015.10.26 07:18:10 INFO  web[o.s.s.s.IndexSynchronizer] Index source lines
+2015.10.26 07:18:10 INFO  web[o.s.s.s.IndexSynchronizer] Index users
+2015.10.26 07:18:10 INFO  web[o.s.s.s.IndexSynchronizer] Index views
+2015.10.26 07:18:10 INFO  web[jruby.rack] jruby 1.7.9 (ruby-1.8.7p370) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.8.0_66-b17 [Windows 10-amd64]
+2015.10.26 07:18:10 INFO  web[jruby.rack] using a shared (threadsafe!) runtime
+2015.10.26 07:18:23 INFO  web[jruby.rack] keeping custom (config.logger) Rails logger instance
+2015.10.26 07:18:23 INFO  web[o.a.c.h.Http11NioProtocol] Starting ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:18:23 INFO  web[o.s.s.a.TomcatAccessLog] Web server is started
+2015.10.26 07:18:23 INFO  web[o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2015.10.26 07:18:24 INFO  app[o.s.p.m.Monitor] Process[web] is up
+CTRL-C trapped.  Shutting down.
+2015.10.26 07:23:19 INFO  app[o.s.p.m.TerminatorThread] Process[web] is stopping
+2015.10.26 07:23:19 INFO  web[o.s.p.StopWatcher] Stopping process
+2015.10.26 07:23:19 INFO  web[o.a.c.h.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:23:20 INFO  web[o.s.s.n.NotificationService] Notification service stopped
+2015.10.26 07:23:20 INFO  web[o.s.s.d.EmbeddedDatabase] Embedded database stopped
+2015.10.26 07:23:20 INFO  web[o.a.c.h.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:23:21 INFO  web[o.a.c.h.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:23:21 INFO  web[o.s.s.a.TomcatAccessLog] Web server is stopped
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
+2015.10.26 07:23:22 INFO  app[o.s.p.m.TerminatorThread] Process[web] is stopped
+2015.10.26 07:23:22 INFO  app[o.s.p.m.TerminatorThread] Process[search] is stopping
+2015.10.26 07:23:22 INFO   es[o.s.p.StopWatcher]  Stopping process
+2015.10.26 07:23:22 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] stopping ...
+2015.10.26 07:23:22 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] stopped
+2015.10.26 07:23:22 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] closing ...
+2015.10.26 07:23:22 INFO   es[o.elasticsearch.node]  [sonar-1445840268438] closed
+2015.10.26 07:23:22 INFO  app[o.s.p.m.TerminatorThread] Process[search] is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2015.10.26 07:23:30 INFO  app[o.s.p.m.JavaProcessLauncher] Launch process[search]: C:\Program Files\Java\jre1.8.0_66\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djava.net.preferIPv4Stack=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Users\Raph\AppData\Local\Temp\sq-process808100146171502487properties
+2015.10.26 07:23:31 INFO   es[o.s.p.ProcessEntryPoint]  Starting search
+2015.10.26 07:23:31 INFO   es[o.s.s.SearchServer]  Starting Elasticsearch[sonarqube] on port 9001
+2015.10.26 07:23:31 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] version[1.4.4], pid[6156], build[c88f77f/2015-02-19T13:05:36Z]
+2015.10.26 07:23:31 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] initializing ...
+2015.10.26 07:23:31 INFO   es[o.e.plugins]  [sonar-1445840610677] loaded [], sites []
+2015.10.26 07:23:32 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] initialized
+2015.10.26 07:23:32 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] starting ...
+2015.10.26 07:23:33 INFO   es[o.e.transport]  [sonar-1445840610677] bound_address {inet[/0.0.0.0:9001]}, publish_address {inet[/192.168.0.199:9001]}
+2015.10.26 07:23:33 INFO   es[o.e.discovery]  [sonar-1445840610677] sonarqube/Y32pqyujST2KADgRKCH1JA
+2015.10.26 07:23:36 INFO   es[o.e.cluster.service]  [sonar-1445840610677] new_master [sonar-1445840610677][Y32pqyujST2KADgRKCH1JA][DESKTOP-PAF4N6N][inet[/192.168.0.199:9001]]{rack_id=sonar-1445840610677}, reason: zen-disco-join (elected_as_master)
+2015.10.26 07:23:36 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] started
+2015.10.26 07:23:36 INFO   es[o.e.gateway]  [sonar-1445840610677] recovered [6] indices into cluster_state
+2015.10.26 07:23:39 INFO  app[o.s.p.m.Monitor] Process[search] is up
+2015.10.26 07:23:39 INFO  app[o.s.p.m.JavaProcessLauncher] Launch process[web]: C:\Program Files\Java\jre1.8.0_66\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djruby.management.enabled=false -Djruby.compile.invokedynamic=false -Xmx768m -XX:MaxPermSize=160m -XX:+HeapDumpOnOutOfMemoryError -Djava.net.preferIPv4Stack=true -Djava.io.tmpdir=C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\temp -cp ./lib/common/*;./lib/server/*;C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\lib\jdbc\h2\h2-1.3.176.jar org.sonar.server.app.WebServer C:\Users\Raph\AppData\Local\Temp\sq-process8880123602938616086properties
+2015.10.26 07:23:39 INFO  web[o.s.p.ProcessEntryPoint] Starting web
+2015.10.26 07:23:39 INFO  web[o.s.s.app.Webapp] Webapp directory: C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\web
+2015.10.26 07:23:39 INFO  web[o.a.c.h.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:23:39 INFO  web[o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2015.10.26 07:23:40 INFO  web[o.e.plugins] [sonar-1445840610677] loaded [], sites []
+2015.10.26 07:23:41 INFO  web[o.s.s.p.ServerImpl] SonarQube Server / 5.1.2 / 2a52a7106b2bfbd659c591c2d6fc09ad0ab2db5c
+2015.10.26 07:23:41 INFO  web[o.s.s.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://localhost:9092/sonar
+2015.10.26 07:23:41 INFO  web[o.s.s.d.EmbeddedDatabase] Embedded database started. Data stored in: C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2\data
+2015.10.26 07:23:41 INFO  web[o.s.c.p.Database] Create JDBC datasource for jdbc:h2:tcp://localhost:9092/sonar
+2015.10.26 07:23:41 WARN  web[o.s.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2015.10.26 07:23:42 INFO  web[o.s.s.p.DefaultServerFileSystem] SonarQube home: C:\Users\Raph\Desktop\sandbox\sonarqube-5.1.2\sonarqube-5.1.2
+2015.10.26 07:23:42 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Install plugins
+2015.10.26 07:23:42 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Plugin java replaced by new version
+2015.10.26 07:23:42 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Core / 5.1.2 / 2a52a7106b2bfbd659c591c2d6fc09ad0ab2db5c
+2015.10.26 07:23:42 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Email notifications / 5.1.2 / 2a52a7106b2bfbd659c591c2d6fc09ad0ab2db5c
+2015.10.26 07:23:42 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin C# / 4.2 / f0abfc62733669d3f28c8c41bb77298e776dccfd
+2015.10.26 07:23:42 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin GitHub / 1.0.1 / f6a1de976ef5a88ad8302819b5b0630f878f5c2a
+2015.10.26 07:23:43 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Java / 3.6 / 88ff47a7574edcc4472ff495c15b6f94d8dbd98f
+2015.10.26 07:23:43 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Code Smells / 2.0.0
+2015.10.26 07:23:43 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin ReSharper / 2.0 / f5844ba497b95ff618ffd7b312ac63b4fe4a3279
+2015.10.26 07:23:43 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin Git / 1.0 / 9ce9d330c313c296fab051317cc5ad4b26319e07
+2015.10.26 07:23:43 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin StyleCop / 1.1 / 909438ebc609371919de34aa41262093711c58bc
+2015.10.26 07:23:43 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin English Pack / 5.1.2 / 2a52a7106b2bfbd659c591c2d6fc09ad0ab2db5c
+2015.10.26 07:23:43 INFO  web[o.s.s.p.ServerPluginJarsInstaller] Deploy plugin SVN / 1.0 / 213fc8a8b582ff530b12dd4a59a6512be1071234
+2015.10.26 07:23:43 INFO  web[o.s.s.p.RailsAppsDeployer] Deploy Ruby on Rails applications
+2015.10.26 07:23:43 INFO  web[o.s.j.s.AbstractDatabaseConnector] Initializing Hibernate
+2015.10.26 07:23:44 INFO  web[o.s.s.p.UpdateCenterClient] Update center: http://update.sonarsource.org/update-center.properties (no proxy)
+2015.10.26 07:23:44 INFO  web[o.s.s.n.NotificationService] Notification service started (delay 60 sec.)
+2015.10.26 07:23:45 INFO  web[o.s.s.s.IndexSynchronizer] Index rules
+2015.10.26 07:23:45 INFO  web[o.s.s.s.IndexSynchronizer] Index activeRules
+2015.10.26 07:23:45 INFO  web[o.s.s.s.RegisterMetrics] Register metrics
+2015.10.26 07:23:45 INFO  web[o.s.s.s.RegisterMetrics] Cleaning quality gate conditions
+2015.10.26 07:23:45 INFO  web[o.s.s.s.RegisterDebtModel] Register technical debt model
+2015.10.26 07:23:45 INFO  web[o.s.s.r.RegisterRules] Register rules
+2015.10.26 07:23:46 INFO  web[o.s.p.r.ReSharperRulesDefinition] ReSharper rules for cs imported.
+2015.10.26 07:23:46 INFO  web[o.s.p.r.ReSharperRulesDefinition] ReSharper rules for vbnet imported.
+2015.10.26 07:23:52 INFO  web[o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2015.10.26 07:23:53 INFO  web[o.s.s.q.RegisterQualityProfiles] Register profile {lang=cs, name=Sonar way}
+2015.10.26 07:23:54 INFO  web[o.s.s.q.RegisterQualityProfiles] Set default cs profile: Sonar way
+2015.10.26 07:23:54 INFO  web[o.s.s.s.RegisterNewMeasureFilters] Register measure filters
+2015.10.26 07:23:54 INFO  web[o.s.s.s.RegisterDashboards] Register dashboards
+2015.10.26 07:23:54 INFO  web[o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2015.10.26 07:23:54 INFO  web[o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2015.10.26 07:23:54 INFO  web[o.s.s.s.IndexSynchronizer] Index activities
+2015.10.26 07:23:54 INFO   es[o.e.cluster.metadata]  [sonar-1445840610677] [activities] update_mapping [activity] (dynamic)
+2015.10.26 07:23:54 INFO  web[o.s.s.s.IndexSynchronizer] Index issues
+2015.10.26 07:23:54 INFO  web[o.s.s.s.IndexSynchronizer] Index source lines
+2015.10.26 07:23:54 INFO  web[o.s.s.s.IndexSynchronizer] Index users
+2015.10.26 07:23:54 INFO  web[o.s.s.s.IndexSynchronizer] Index views
+2015.10.26 07:23:54 INFO  web[jruby.rack] jruby 1.7.9 (ruby-1.8.7p370) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.8.0_66-b17 [Windows 10-amd64]
+2015.10.26 07:23:54 INFO  web[jruby.rack] using a shared (threadsafe!) runtime
+2015.10.26 07:24:03 INFO  web[jruby.rack] keeping custom (config.logger) Rails logger instance
+2015.10.26 07:24:03 INFO  web[o.a.c.h.Http11NioProtocol] Starting ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:24:03 INFO  web[o.s.s.a.TomcatAccessLog] Web server is started
+2015.10.26 07:24:03 INFO  web[o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2015.10.26 07:24:03 INFO  app[o.s.p.m.Monitor] Process[web] is up
+CTRL-C trapped.  Shutting down.
+2015.10.26 07:26:28 INFO  web[o.s.p.StopWatcher] Stopping process
+2015.10.26 07:26:28 INFO  web[o.a.c.h.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:26:30 INFO  web[o.s.s.n.NotificationService] Notification service stopped
+2015.10.26 07:26:30 INFO  web[o.s.s.d.EmbeddedDatabase] Embedded database stopped
+2015.10.26 07:26:30 INFO  web[o.a.c.h.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:26:31 INFO  web[o.a.c.h.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-0.0.0.0-9000"]
+2015.10.26 07:26:31 INFO  web[o.s.s.a.TomcatAccessLog] Web server is stopped
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
+2015.10.26 07:26:31 INFO   es[o.s.p.StopWatcher]  Stopping process
+2015.10.26 07:26:31 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] stopping ...
+2015.10.26 07:26:31 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] stopped
+2015.10.26 07:26:31 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] closing ...
+2015.10.26 07:26:31 INFO   es[o.elasticsearch.node]  [sonar-1445840610677] closed
+2015.10.26 07:26:28 INFO  app[o.s.p.m.TerminatorThread] Process[web] is stopping
+Wrapper Process has not received any CPU time for 76 seconds.  Extending timeouts.
+2015.10.26 07:26:31 INFO  app[o.s.p.m.TerminatorThread] Process[web] is stopped
+2015.10.26 07:26:31 INFO  app[o.s.p.m.TerminatorThread] Process[search] is stopping
+2015.10.26 07:26:31 INFO  app[o.s.p.m.TerminatorThread] Process[search] is stopped
+<-- Wrapper Stopped
